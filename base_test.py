@@ -17,9 +17,9 @@ class BaseTestCase(unittest.TestCase):
 	def tearDownClass(cls):
 		raise NotImplementedError()
 
-	def setUp(self)
+	def setUp(self):
 		raise NotImplementedError()
 
-	def tearDown(self)
+	def tearDown(self):
 		raise NotImplementedError()
 
