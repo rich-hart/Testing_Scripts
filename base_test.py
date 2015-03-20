@@ -8,7 +8,7 @@ Python source code - replace this with a description of the code and write the c
 
 import unittest
 
-class Test(unittest.TestCase):
+class BaseTestCase(unittest.TestCase):
 	@classmethod
 	def setUpClass(cls):
 		raise NotImplementedError()
